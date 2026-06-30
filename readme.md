@@ -1,5 +1,9 @@
 # ⏰ 60s API
 
+> [!IMPORTANT]
+> 
+> 部署平台 Deno Deploy Classic [预计将于 7 月 20 日 终止服务](https://blog.viki.moe/thoughts/157)，且由于大量请求，免费额度已耗尽。公共 API 服务已迁移到 Cloudflare Workers，额度、兼容性等方面可能会受影响。如有问题请及时反馈。有能力建议自行私有部署，以确保服务持续稳定可用。
+
 ![Update Status](https://github.com/vikiboss/60s-static-host/workflows/schedule/badge.svg) ![GitHub](https://img.shields.io/github/v/release/vikiboss/60s?label=GitHub) ![Docker](https://img.shields.io/docker/v/vikiboss/60s?style=flat&label=Docker) ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?logo=bun&logoColor=white) ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![群](https://img.shields.io/badge/%E4%BC%81%E9%B9%85%E7%BE%A4-595941841-ff69b4)](https://qm.qq.com/q/RpJXzgfAMG)
 
 <a href="https://hellogithub.com/repository/vikiboss/60s" target="_blank" ref="noreferrer noopener" ><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8e9af473df2244f59d84b79915298fcc&claim_uid=wXMelR56paDoO2x&theme=dark" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
