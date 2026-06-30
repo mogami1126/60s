@@ -23,7 +23,7 @@ class Service60s {
         case 'text': {
           ctx.response.body = `每天 60s 读懂世界（${data.date}）\n\n${data.news
             .map((e, idx) => `${idx + 1}. ${e}`)
-            .join('\n')}\n\n${data.tip ? `【微语】${data.tip}` : ''}`
+            .join('\n')}`
           break
         }
 
@@ -37,7 +37,7 @@ class Service60s {
             })
             .join(
               '\n',
-            )}\n\n${data.tip ? `---\n\n**【微语】** *${data.tip}*` : ''}${data.image ? `\n\n![每天 60s 读懂世界](${data.image})` : ''}`
+            )}${data.image ? `\n\n![每天 60s 读懂世界](${data.image})` : ''}`
           break
         }
 

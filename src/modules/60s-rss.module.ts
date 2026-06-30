@@ -109,10 +109,6 @@ class Service60sRss {
           })
           .join('\n')
 
-        const tipHtml = item.tip
-          ? `<h3>💬 微语</h3><p>${this.#escapeXml(item.tip)}</p>`
-          : ''
-
         const imageHtml = item.image
           ? `<h3>📷 图片版本</h3><img src="${this.#escapeXml(item.image)}" alt="每天 60s 读懂世界" style="max-width: 100%; height: auto;"/>`
           : ''
@@ -122,7 +118,6 @@ class Service60sRss {
         const description = `<![CDATA[
 <p>早上好，今天是 ${this.#escapeXml(dayjs(item.date).tz(TZ_SHANGHAI).format('YYYY年M月D日'))}，${this.#escapeXml(dayOfWeek)}，农历${this.#escapeXml(lunarDate)}。</p>
 ${newsHtml}
-${tipHtml}
 ${imageHtml}
 ${footerHtml}
 ]]>`
